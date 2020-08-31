@@ -1,0 +1,67 @@
+.Post {
+    margin-bottom: 2em;
+    background-color: white;
+    width: 480px;
+    border: 1px solid #d8d8d8;
+}
+
+.Post__header {
+    display: flex;
+    justify-content: space-between;
+    padding: .5em;
+    align-items: center;
+}
+
+.User__post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MuiSvgIcon-root {
+    cursor: pointer;
+}
+
+.User__post > .MuiSvgIcon-root {
+    font-size: 2em;
+    margin-right: .25em;
+}
+
+.Post__image > img {
+    height: 720px;
+    width: 480px;
+    object-fit: contain;
+}
+
+.Bar__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: .5em;
+}
+
+.Leftbar > :not(:first-child) {
+    margin-left: .25em;
+}
+
+.Detail__wrapper {
+    padding: 0 10px;
+}
+
+.Detail__wrapper > .Caption > span{
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.Detail__wrapper > form {
+    padding: 5px 0;
+    display: flex;
+}
+
+.Detail__wrapper > form > input{
+    padding: 5px;
+    flex: 1;
+}
+
+.Detail__wrapper > form > button {
+    display: none;
+}

@@ -1,0 +1,45 @@
+.Header {
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid #aaa;
+    position: sticky;
+    top: 0;
+}
+
+.Header__navbar {
+    max-width: 720px;
+    margin: 0 auto;
+
+    padding: 1em;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header__navbar > .Logo {
+    cursor: pointer;
+}
+
+.Header__navbar > .Searchbar > input {
+    background-color: #f2f2f2;
+    border: 1px solid #bdbdbd;
+    color: #bdbdbd;
+    text-align: center;
+    padding: 5px;
+}
+
+.Header__navbar > .Searchbar > input::placeholder {
+    color: #bdbdbd;
+}
+
+.Header__navbar > .Menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Header__navbar > .Menu > .MuiSvgIcon-root {
+    font-size: 1.75em;
+    cursor: pointer;
+    margin: 0 5px;
+}
