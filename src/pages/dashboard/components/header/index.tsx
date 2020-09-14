@@ -5,6 +5,8 @@ import ExploreOutlinedIcon from '@material-ui/icons/ExploreOutlined';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import TelegramIcon from '@material-ui/icons/Telegram';
 
+import { Link } from 'react-router-dom';
+
 import './Header.css';
 
 
@@ -25,8 +27,8 @@ class Header extends Component {
 
                     {/* Menu */}
                     <div className="Menu">
-                        <HomeIcon/>
-                        <TelegramIcon/>
+                        <Link to="/"><HomeIcon/></Link>
+                        <Link to="/chats"><TelegramIcon/></Link>
                         <ExploreOutlinedIcon/>
                         <FavoriteBorderIcon/>
                         <AccountCircleIcon/>
